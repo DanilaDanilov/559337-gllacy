@@ -10,18 +10,18 @@
 
   	<header class="main-header">
          <nav class="main-navigation">
-                <img class="main-logo" src="img/лого.png" alt="logo">
+                <img class="main-logo" src="img/logo.png" alt="logo">
 
          	     <ul class="site-navigation">
-         	     	     <li><a href="#">Католог</a>
+         	     	        <li><a href="#">Католог</a>
          	     	     	<li><a href="#">Доставка и оплата</a>
          	     	     	<li><a href="#">О компании</a>	
          	     </ul>
 
          	     <ul class="user-navigation">
-         	     	      <li class="search"><a href="#">Поиск</a></li>
-         	     	      <li class="enter"><a href="#">Вход</a></li>
-         	     	      <li class="your-items"><a href="#">2 товара</a></li>
+         	     	      <li class="search"><a href="#"><img src="img/search.png" alt="поиск">Поиск</a></li>
+         	     	      <li class="enter"><a href="#"><img src="img/enter.png" alt="вход">Вход</a></li>
+         	     	      <li class="your-items"><a href="#"><img src="img/shop.png" alt="корзина">Пусто</a></li>
          	     </ul>
          </nav>
 
@@ -40,6 +40,7 @@
 
   			  <div class="sorting">
   			  	<b class="sorting-name">Сортировка:</b><br/>
+
   			  	<select class="sorting-list"> 
                   <option>По популярности</option>
                   <option>По ****</option>
@@ -50,28 +51,34 @@
 
           <div class="slider">
                <b class="slider-name">Цена: 100 руб. – 500 руб.</b><br/>
+               <form action="#" name="slider" method="get">
           	<input class="slider-list" type="range" min="100" max="500" list="rangeList1">
+               </form>
           </div>
 
           <div class="choose">
-              <b class="choose-name">Жирность:</b>
+            <b class="choose-name">Жирность:</b>
+            <form action="#" name="list" method="get">
                <label class="choose-list-1"><input name="jir" type="radio" value="1"> 0% </label>
                <label class="choose-list-2"><input name="jir" type="radio" value="2"> до 10%</label>
                <label class="choose-list-3"><input name="jir" type="radio" value="3" checked> до 30% </label>
                <label class="choose-list-4"><input name="jir" type="radio" value="4" checked> выше 30%</label>
+            </form>
           </div>
 
           <div class="type">
-          	              <b class="type-name">Наполнители:</b>
+          	<b class="type-name">Наполнители:</b>
+          	<form action="#" name="typelist" method="get">
                <label class="type-list-1"><input name="in" type="checkbox" value="11"> шоколадные </label>
                <label class="type-list-2"><input name="in" type="checkbox" value="22"> сахарные присыпки</label>
                <label class="type-list-3"><input name="in" type="checkbox" value="33" checked> фрукты </label>
                <label class="type-list-4"><input name="in" type="checkbox" value="44" checked> сиропы</label>
                <label class="type-list-5"><input name="in" type="checkbox" value="55" checked> джемы</label>
+            </form>
           </div>
           <div class="button">
-          	<!--ТУТ БУДЕТ КНОПКА, НО ПОКА a-->
-            <a class="button-name" href="#">Применить</a>
+          	
+            <button class="button-name" href="#">Применить</button>
           </div>
            </div>
 
@@ -223,10 +230,10 @@
 
 <footer class="main-footer">
     	<ul class="social">
-    		 <li class="social-info-twitter"><a href="#">Twitter</a></li>
-    		 <li class="social-info-instagram"><a href="#">Instagram</a></li>
-    		 <li class="social-info-facebook"><a href="#">Facebook</a></li>
-    		 <li class="social-info-vk"><a href="#">VK</a></li>
+    		 <li class="social-info-twitter"><a href="#"><img src="img/twitter.png" alt="твиттер">Twitter</a></li>
+    		 <li class="social-info-instagram"><a href="#"><img src="img/insta.png" alt="инстаграм">Instagram</a></li>
+    		 <li class="social-info-facebook"><a href="#"><img src="img/fb.png" alt="ФБ">Facebook</a></li>
+    		 <li class="social-info-vk"><a href="#"><img src="img/vk.png" alt="вк">VK</a></li>
     	</ul>
 
     	<ul class="social">
