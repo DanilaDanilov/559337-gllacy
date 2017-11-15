@@ -1,0 +1,427 @@
+@font-face {
+    font-family: Roboto-Regular; 
+    src: url(Roboto-Regular.ttf); 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto-Italic; 
+    src: url(Roboto-Italic.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-Light; 
+    src: url(Roboto-Light.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-LightItalic; 
+    src: url(Roboto-LightItalic.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-BoldItalic; 
+    src: url(Roboto-BoldItalic.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-Thin; 
+    src: url(Roboto-Thin.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-MediumItalic; 
+    src: url(Roboto-MediumItalic.ttf); 
+}
+  
+@font-face {
+    font-family: Roboto-Medium; 
+    src: url(Roboto-Medium.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-Bold; 
+    src: url(Roboto-Bold.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-Bold; 
+    src: url(Roboto-Bold.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-BlackItalic; 
+    src: url(Roboto-BlackItalic.ttf); 
+}
+
+@font-face {
+    font-family: Roboto-Black; 
+    src: url(Roboto-Black.ttf); 
+}
+
+body{
+    background-color:#859D8F;
+}   
+
+.site-navigation{
+    color: white;
+    list-style-type: none; 
+}
+
+.site-navigation-1{
+color: white; 
+font-size: 20px; 
+
+}
+
+.site-navigation-2{
+color: white; 
+font-size: 20px; 
+}
+
+.site-navigation-3{
+color: white; 
+font-size: 20px; 
+}
+
+.user-navigation{
+    list-style-type: none; 
+}
+
+.search-1{
+    color: white; 
+font-size: 20px;
+text-decoration: none;
+}
+
+.enter-1{
+    color: white; 
+font-size: 20px; 
+text-decoration: none;
+}
+
+
+.shop-1{
+    color: white; 
+font-size: 20px;
+text-decoration: none; 
+}
+
+.main-info-text{
+    color: white; 
+font-size: 15px; 
+font-weight: 600;
+word-spacing: 3px;
+}
+
+.main-info-phone{
+    color: white; 
+font-size: 25px; 
+font-weight: 800
+}
+
+.main-name{
+ color: white; 
+font-size: 35px; 
+font-weight: 800
+}
+
+.sorting-name{
+    color: white; 
+font-size: 15px; 
+font-weight: 800
+}
+
+.slider-name{
+    color: white; 
+font-size: 15px; 
+font-weight: 800
+}
+
+.choose-name{
+   color: white; 
+font-size: 15px; 
+font-weight: 800 
+}
+
+.type-name{
+  color: white; 
+font-size: 15px; 
+font-weight: 800   
+}
+
+.button-name{
+    color: white; 
+font-size: 20px; 
+font-weight: 200
+}
+
+.item-1-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-1-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-1-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+
+.item-2-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-2-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-2-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-3-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-3-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-3-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+
+.item-4-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-4-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-4-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-5-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-5-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-5-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-6-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-6-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-6-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-7-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-7-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-7-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-8-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-8-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-8-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-9-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-9-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-9-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-10-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-10-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-10-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-11-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-11-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-11-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+.item-12-price{
+color: white; 
+font-size: 40px; 
+font-weight: 800;
+}
+.item-12-kg{
+ color: white; 
+font-size: 25px; 
+font-weight: 900;
+}
+
+.item-12-text{
+color: white; 
+font-size: 20px; 
+font-weight: 800;
+}
+
+.pick-str-1{
+color: white;
+text-decoration: none;
+}
+
+.pick-str-2{
+color: white;
+text-decoration: none;
+}
+
+.pick-str-3{
+color: white;
+text-decoration: none;
+}
+
+.pick-str-4{
+color: white;
+text-decoration: none;
+}
+
+.pick-str-5{
+color: white;
+text-decoration: none;
+}
+
+.pick-str-6{
+color: white;
+text-decoration: none;
+}
+
+.pick-str-7{
+color: white;
+text-decoration: none;
+}
+
+.social-class{
+    list-style-type: none;
+}
+
+.social-1{
+    color: white;
+font-size: 17px; 
+font-weight: 900;
+
+}
+
+.social-2{
+    color: white;
+font-size: 15px; 
+}
+
+.social-3{
+    color: white;
+font-size: 15px; 
+}
+
+.social-4{
+    color: white;
+font-size: 15px; 
+}
+
+.made-in-html-text{
+    color: white;
+font-size: 10px; 
+}
+
+.made-in-html-link{
+    color: white;
+font-size: 10px;
+}
+
+
+
+
