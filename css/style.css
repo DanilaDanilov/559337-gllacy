@@ -1,254 +1,194 @@
-@font-face {
-    font-family: Roboto-Regular; 
-    src: url(Roboto-Regular.ttf); 
-    font-weight: normal;
-}
 
-@font-face {
-    font-family: Roboto-Italic; 
-    src: url(Roboto-Italic.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Light; 
-    src: url(Roboto-Light.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-LightItalic; 
-    src: url(Roboto-LightItalic.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-BoldItalic; 
-    src: url(Roboto-BoldItalic.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Thin; 
-    src: url(Roboto-Thin.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-MediumItalic; 
-    src: url(Roboto-MediumItalic.ttf); 
-}
-  
-@font-face {
-    font-family: Roboto-Medium; 
-    src: url(Roboto-Medium.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Bold; 
-    src: url(Roboto-Bold.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Bold; 
-    src: url(Roboto-Bold.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-BlackItalic; 
-    src: url(Roboto-BlackItalic.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Black; 
-    src: url(Roboto-Black.ttf); 
-}
 
 body{
-	background-color:#859D8F;
-}
-
-
-
-
+    background-color:#859D8F;
+    font-family: "Roboto", "Arial", sans-serif;
+    
+}   
 .site-navigation{
-	color: white;
-	list-style-type: none; 
+    color: white;
+    list-style-type: none; 
 }
 
 .site-navigation-1{
-color: white; 
-font-size: 20px; 
+    color: white; 
+    font-weight: 700;
 
 }
 
 .site-navigation-2{
-color: white; 
-font-size: 20px; 
+    color: white; 
+    font-weight: 700;
 }
 
 .site-navigation-3{
-color: white; 
-font-size: 20px; 
+    color: white; 
+    font-weight: 700;
 }
 
 .user-navigation{
-	list-style-type: none; 
+    list-style-type: none; 
 }
 
 .search-1{
-	color: white; 
-font-size: 20px;
-text-decoration: none;
+    color: white; 
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .enter-1{
-	color: white; 
-font-size: 20px; 
-text-decoration: none;
+    color: white; 
+    font-size: 20px; 
+    text-decoration: none;
 }
 
 
 .shop-1{
-	color: white; 
-font-size: 20px;
-text-decoration: none; 
+    color: white; 
+    font-size: 20px;
+    text-decoration: none; 
 }
 
 .main-info-text{
-	color: white; 
-font-size: 15px; 
-font-weight: 600;
-word-spacing: 3px;
+    color: white; 
+    font-size: 15px; 
+    font-weight: 700;
 }
 
 .main-info-phone{
-	color: white; 
-font-size: 25px; 
-font-weight: 800
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .header-text{
 	color: white; 
-font-size: 70px; 
-font-weight: 800
+	font-size: 70px; 
+	font-weight: 700;
 }
 
 .header-button{
-color: white; 
-font-size: 40px; 
-text-decoration: none;
+	color: white; 
+	font-size: 40px; 
+	text-decoration: none;
 }
 
 .stock-one-text{
-color: white; 
-font-size: 35px; 
-text-decoration: none;
+	color: white; 
+	font-size: 35px; 
+	text-decoration: none;
+	font-weight: 700;
 }
 
 .stock-one-infotext{
-color: white; 
-font-size: 20px; 
-font-weight: 500;
+	color: white; 
+	font-size: 20px; 
+	font-weight: 500;
+	font-weight: 700;
 }
 
 .stock-one-button{
-color: white; 
-font-size: 30px; 
-text-decoration: none;
-font-weight: 300;
+	color: white; 
+	font-size: 30px; 
+	text-decoration: none;
+	font-weight: 300;
+	font-weight: 700;
 }
 
 .stock-two-text{
-color: white; 
-font-size: 35px; 
-text-decoration: none;
+	color: white; 
+	font-size: 35px; 
+	text-decoration: none;
+	font-weight: 700;
 }
 
 .stock-two-infotext{
-color: white; 
-font-size: 20px; 
-font-weight: 500;
+	color: white; 
+	font-size: 20px; 
+	font-weight: 500;
+	font-weight: 700;
 }
 
 .stock-two-button{
-color: white; 
-font-size: 30px; 
-text-decoration: none;
-font-weight: 300;
+	color: white; 
+	font-size: 30px; 
+	text-decoration: none;
+	font-weight: 300;
+	font-weight: 700;	
 }
 
 .item-one-price{
 	color: white; 
-font-size: 40px; 
-font-weight: 800;
+	font-size: 40px; 
+	font-weight: 700;
 }
 
 .item-one-kg{
 	color: white; 
-font-size: 25px; 
-font-weight: 900;
+	font-size: 25px; 
+	font-weight: 700;
 }
 
 .item-two-price{
 	color: white; 
-font-size: 40px; 
-font-weight: 800;
+	font-size: 40px; 
+	font-weight: 700;
 }
 
 .item-two-kg{
 	color: white; 
-font-size: 25px; 
-font-weight: 900;
+	font-size: 25px; 
+	font-weight: 700;
 }
 
 .item-three-price{
 	color: white; 
-font-size: 40px; 
-font-weight: 800;
+	font-size: 40px; 
+	font-weight: 700;
 }
 
 .item-three-kg{
 	color: white; 
-font-size: 25px; 
-font-weight: 900;
+	font-size: 25px; 
+	font-weight: 700;
 }
 
 .item-four-price{
 	color: white; 
-font-size: 40px; 
-font-weight: 800;
+	font-size: 40px; 
+	font-weight: 700;
 }
 
 .item-four-kg{
 	color: white; 
-font-size: 25px; 
-font-weight: 900;
+	font-size: 25px; 
+	font-weight: 700;
 }
 
 .item-one-text{
 	color: white; 
-font-size: 20px; 
-font-weight: 200;
+	font-weight: 500;
 }
 
 .item-two-text{
-	color: white; 
-font-size: 20px; 
-font-weight: 200;
+	color: white; 	
+	font-weight: 500;
 }
 
 .item-three-text{
 	color: white; 
-font-size: 20px; 
-font-weight: 200;
+	font-weight: 500;
 }
 
 .item-four-text{
-	color: white; 
-font-size: 20px; 
-font-weight: 200;
+	color: white;  
+	font-weight: 500;
 }
 
 .info-block-name{
-color: black;
-font-size: 35px; 
-font-weight: 580;
+	color: black;
+	font-size: 35px; 
+	font-weight: 500;
 }
 
 .info-list{
@@ -256,78 +196,61 @@ font-weight: 580;
 }
 
 .info-block-text-1{
-color: black;
-font-size: 20px; 
-font-weight: 180;
-text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 .info-block-text-2{
-color: black;
-font-size: 20px; 
-font-weight: 180;
-text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 .info-block-text-3{
-color: black;
-font-size: 20px; 
-font-weight: 180;
-text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 .info-block-text-4{
-color: black;
-font-size: 20px; 
-font-weight: 180;
-text-decoration: none;
+	color: black;	 
+	text-decoration: none;
 }
 
 .ad-one-name{
-color: black;
-font-size: 20px; 
-font-weight: 380;
-text-decoration: none;
+	color: black;
+	font-size: 20px; 
+	font-weight: 500;
+	text-decoration: none;
 }
 .ad-one-text{
-color: black;
-font-size: 30px; 
-font-weight: 280;
-
+	color: black;
+	font-size: 30px; 
+	font-weight: 700;
 }
 
 .ad-two-name{
 	color: black;
-font-size: 17px; 
-font-weight: 550;
 }
 
 .map-info-adress-one{
-color: black;
-font-size: 15px; 
-font-weight: 200;
+	color: black;
 }
 
 .map-info-adress-two{
 	color: black;
-font-size: 20px; 
-font-weight: 900;
+	font-size: 20px; 
+	font-weight: 700;
 }
 
 .map-info-phone-one{
 	color: black;
-font-size: 15px; 
-font-weight: 200;
 }
 
 .map-info-phone-two{
 	color: black;
-font-size: 20px; 
-font-weight: 900;
+	font-weight: 700;
 }
 
 .map-info-button{
 	color: white;
-font-size: 25px; 
-font-weight: 500;
-text-decoration: none;
+	font-weight: 700;
+	text-decoration: none;
 }
 
 .social-class{
@@ -336,24 +259,19 @@ text-decoration: none;
 
 .social-1{
 	color: white;
-font-size: 17px; 
-font-weight: 900;
 
 }
 
 .social-2{
 	color: white;
-font-size: 15px; 
 }
 
 .social-3{
 	color: white;
-font-size: 15px; 
 }
 
 .social-4{
-	color: white;
-font-size: 15px; 
+	color: white; 
 }
 
 .made-in-html-text{

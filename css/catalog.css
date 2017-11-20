@@ -1,67 +1,11 @@
-@font-face {
-    font-family: Roboto-Regular; 
-    src: url(Roboto-Regular.ttf); 
-    font-weight: normal;
-}
 
-@font-face {
-    font-family: Roboto-Italic; 
-    src: url(../fonts/Roboto-Italic.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Light; 
-    src: url(../fonts/Roboto-Light.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-LightItalic; 
-    src: url(../fonts/Roboto-LightItalic.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-BoldItalic; 
-    src: url(../fonts/Roboto-BoldItalic.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Thin; 
-    src: url(../fonts/Roboto-Thin.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-MediumItalic; 
-    src: url(../fonts/Roboto-MediumItalic.ttf); 
-}
-  
-@font-face {
-    font-family: Roboto-Medium; 
-    src: url(../fonts/Roboto-Medium.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Bold; 
-    src: url(../fonts/Roboto-Bold.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Bold; 
-    src: url(../fonts/Roboto-Bold.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-BlackItalic; 
-    src: url(../fonts/Roboto-BlackItalic.ttf); 
-}
-
-@font-face {
-    font-family: Roboto-Black; 
-    src: url(../fonts/Roboto-Black.ttf); 
-}
 
 body{
     background-color:#859D8F;
-}   
+    font-family: "Roboto", "Arial", sans-serif;
+    
+}  
+
 
 .site-navigation{
     color: white;
@@ -69,19 +13,19 @@ body{
 }
 
 .site-navigation-1{
-color: white; 
-font-size: 20px; 
+    color: white; 
+    font-weight: 700;
 
 }
 
 .site-navigation-2{
-color: white; 
-font-size: 20px; 
+    color: white; 
+    font-weight: 700;
 }
 
 .site-navigation-3{
-color: white; 
-font-size: 20px; 
+    color: white; 
+    font-weight: 700;
 }
 
 .user-navigation{
@@ -90,300 +34,299 @@ font-size: 20px;
 
 .search-1{
     color: white; 
-font-size: 20px;
-text-decoration: none;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .enter-1{
     color: white; 
-font-size: 20px; 
-text-decoration: none;
+    font-size: 20px; 
+    text-decoration: none;
 }
 
 
 .shop-1{
     color: white; 
-font-size: 20px;
-text-decoration: none; 
+    font-size: 20px;
+    text-decoration: none; 
 }
 
 .main-info-text{
     color: white; 
-font-size: 15px; 
-font-weight: 600;
-word-spacing: 3px;
+    font-size: 15px; 
+    font-weight: 700;
 }
 
 .main-info-phone{
     color: white; 
-font-size: 25px; 
-font-weight: 800
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .main-name{
- color: white; 
-font-size: 35px; 
-font-weight: 800
+    color: white; 
+    font-size: 35px; 
+    font-weight: 700;
 }
 
 .sorting-name{
     color: white; 
-font-size: 15px; 
-font-weight: 800
+    font-size: 15px; 
+    font-weight: 500;
 }
 
 .slider-name{
     color: white; 
-font-size: 15px; 
-font-weight: 800
+    font-size: 15px; 
+    font-weight: 500;
 }
 
 .choose-name{
-   color: white; 
-font-size: 15px; 
-font-weight: 800 
+    color: white; 
+    font-size: 15px; 
+    font-weight: 500;
 }
 
 .type-name{
-  color: white; 
-font-size: 15px; 
-font-weight: 800   
+    color: white; 
+    font-size: 15px; 
+    font-weight: 500;  
 }
 
 .button-name{
     color: white; 
-font-size: 20px; 
-font-weight: 200
+    font-size: 20px; 
+    font-weight: 500;
 }
 
 .item-1-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-1-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-1-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 
 .item-2-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-2-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-2-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-3-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-3-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-3-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 
 .item-4-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-4-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-4-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-5-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-5-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-5-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-6-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-6-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-6-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-7-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-7-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-7-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-8-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-8-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+     color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-8-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-9-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-9-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-9-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-10-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-10-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-10-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-11-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-11-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-11-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 .item-12-price{
-color: white; 
-font-size: 40px; 
-font-weight: 800;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 700;
 }
 .item-12-kg{
- color: white; 
-font-size: 25px; 
-font-weight: 900;
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700;
 }
 
 .item-12-text{
-color: white; 
-font-size: 20px; 
-font-weight: 800;
+    color: white; 
+    font-size: 20px; 
+    font-weight: 500;
 }
 
 .pick-str-1{
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .pick-str-2{
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .pick-str-3{
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .pick-str-4{
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .pick-str-5{
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .pick-str-6{
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .pick-str-7{
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .social-class{
@@ -392,24 +335,20 @@ text-decoration: none;
 
 .social-1{
     color: white;
-font-size: 17px; 
-font-weight: 900;
 
 }
 
 .social-2{
     color: white;
-font-size: 15px; 
 }
 
 .social-3{
     color: white;
-font-size: 15px; 
 }
 
 .social-4{
     color: white;
-font-size: 15px; 
+
 }
 
 .made-in-html-text{
